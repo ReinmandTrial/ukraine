@@ -1,0 +1,437 @@
+// media fonts start
+@media (max-width: 575.98px) {
+   // .h1 {
+   //    font-size: 17px;
+   // }
+   .h2 {
+      font-size: 14px;
+   }
+   .h3 {
+      font-size: 14px;
+   }
+   .h4 {
+      font-size: 14px;
+   }
+   html,
+   body {
+      font-size: 14px;
+   }
+}
+// media fonts end
+
+// MAX-WIDTH 1600PX breakpoints START
+@media (max-width: 1600px) {
+}
+// MAX-WIDTH 1600PX breakpoints END
+
+// MAX-WIDTH 1399.98PX breakpoints START
+@media (max-width: 1399.98px) {
+}
+// MAX-WIDTH 1399.98PX breakpoints END
+
+// MAX-WIDTH 1199.98PX breakpoints START
+@media (max-width: 1199.98px) {
+   .polisy-banner__content {
+      padding-right: 60px;
+   }
+   .at-home {
+      &__content {
+         padding: 0 30px;
+      }
+      &__phone {
+         // margin-right: 30px;
+      }
+   }
+}
+// MAX-WIDTH 1199.98PX breakpoints END
+
+@media (max-width: 1099.98px) {
+   .city-rules {
+      &__body {
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+      }
+      .short-info {
+         margin-bottom: 25px;
+      }
+   }
+}
+// MAX-WIDTH 991.98PX breakpoints START
+@media (max-width: 991.98px) {
+   .polisy-banner {
+      &__content {
+         flex-direction: column;
+         align-items: flex-start;
+      }
+      &__text-block {
+         margin-bottom: 40px;
+         margin-right: unset;
+      }
+      &__bg {
+         right: 20px;
+         top: 30px;
+         left: unset;
+      }
+      .short-info {
+         width: 226px;
+      }
+   }
+
+   .at-home {
+      &__content {
+         padding-right: unset;
+      }
+      &__find {
+         display: none;
+      }
+      &__play-market-mobile,
+      &__app-store-mobile {
+         display: block;
+      }
+      &__link {
+         width: 132px;
+         height: 79px;
+         margin-bottom: 10px;
+         margin-left: -12px;
+         margin-top: -29px;
+      }
+   }
+   .questions {
+      padding-top: 80px;
+
+      &__img {
+         display: none;
+      }
+      &__img-mobile {
+         display: block;
+      }
+      &__content {
+         padding: 40px;
+      }
+   }
+   .banner {
+      &__list {
+         padding: 17px;
+      }
+   }
+   .footer {
+      &__block {
+         width: 70%;
+      }
+      &__block-center {
+         left: unset;
+         right: 0;
+         transform: none;
+      }
+   }
+   .header {
+      &__content {
+         flex-wrap: wrap;
+      }
+      &__contact-us {
+         order: 4;
+         width: 100%;
+         margin-top: 15px;
+      }
+   }
+}
+// MAX-WIDTH 991.98PX breakpoints END
+
+// MAX-WIDTH 767.98PX breakpoints START
+@media (max-width: 767.98px) {
+   .polisy-banner__content {
+      padding: 40px;
+   }
+   .city-rules {
+      &__body {
+         padding-top: 25px;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: flex-start;
+      }
+      .short-info {
+         width: unset;
+         text-align: left;
+         padding-left: 20px;
+         margin-bottom: unset;
+         position: relative;
+         &:not(:last-child) {
+            margin-bottom: 20px;
+         }
+         &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: $blue;
+         }
+         &__img {
+            display: none;
+         }
+      }
+   }
+   .at-home {
+      &__content {
+         margin-right: -15px;
+      }
+   }
+   .banner {
+      &__mark {
+         width: 44px;
+         height: 44px;
+      }
+   }
+   .lang {
+      &__head {
+         .icon-triangle-right {
+            font-size: 9px;
+         }
+      }
+      &__item {
+         font-size: 12px;
+         padding-left: 12px;
+         &::before {
+            width: 8px;
+            height: 8px;
+         }
+      }
+   }
+   .header {
+      &__content {
+         flex-wrap: nowrap;
+         padding-top: 15px;
+      }
+      &__contact-us {
+         width: unset;
+         order: unset;
+         margin-top: unset;
+      }
+      &__link:not(:last-child) {
+         margin-right: 15px;
+      }
+      &__toggle {
+         padding: 1px;
+         border-radius: 8.112px;
+      }
+      &__toggle-item {
+         padding: 4px 6px;
+         font-size: 10px;
+         font-weight: 600;
+      }
+      &__toggle-item.active {
+         padding: 4px 12px;
+         border-radius: 7.488px;
+      }
+      &__link {
+         font-size: 13px;
+         &:not(:last-child) {
+            // margin-right: 38px;
+         }
+         .icon {
+            font-size: 14px;
+         }
+      }
+   }
+   .logo {
+      transform: translateY(-3px);
+      width: 114px;
+      height: 23px;
+   }
+}
+// MAX-WIDTH 767.98PX breakpoints END
+
+// MAX-WIDTH 576.98PX breakpoints START
+@media (max-width: 575.98px) {
+   .polisy-banner {
+      &__content {
+         padding: 35px 26px;
+      }
+      &__title {
+         font-weight: bold;
+         font-size: 18px;
+         line-height: 170.68%;
+         margin-bottom: 5px;
+      }
+      &__descr {
+         font-weight: 600;
+         margin-bottom: 5px;
+      }
+      &__notice {
+         font-size: 12px;
+      }
+      &__btn {
+         margin: 0 auto;
+         max-width: 257px;
+         width: 100%;
+         padding-top: 11px;
+         padding-bottom: 13px;
+      }
+   }
+   .short-info::before {
+      top: 5px;
+   }
+   .head {
+      border-radius: 10px 10px 0 0;
+   }
+   .at-home {
+      &__content {
+         padding-left: 15px;
+      }
+      &__title {
+         font-size: 25px;
+         margin-bottom: 10px;
+         line-height: 170.68%;
+      }
+      &__descr {
+         margin-bottom: 35px;
+      }
+      &__btn {
+         padding: 7px 21px 9px;
+         font-size: 14px;
+         min-width: unset;
+      }
+   }
+   .video {
+      &__content {
+         padding: 0;
+      }
+   }
+   .questions {
+      padding-top: 0;
+      &__content {
+         padding-left: 15px;
+         padding-right: 65px;
+         border-radius: 10px;
+      }
+      &__title {
+         font-size: 30px;
+         margin-bottom: 30px;
+      }
+   }
+   .search {
+      padding: 20px 0 80px;
+      &__input {
+         font-size: 10px;
+         padding: 10px 30px 11px 10px;
+         border: 0.4663px solid #dfdfdf;
+         box-shadow: 0px 0px 1.8652px rgba(0, 0, 0, 0.25);
+         border-radius: 5.1293px;
+         &:hover {
+            box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+         }
+      }
+      &__input-box {
+         margin-bottom: 30px;
+         .icon {
+            right: 14px;
+         }
+      }
+      &__results {
+         margin: -15px -10px;
+         margin-bottom: 20px;
+      }
+      &__item {
+         padding: 4px 10px 3px;
+         min-width: 91px;
+         margin: 15px 10px;
+      }
+      &__btn {
+         min-width: 250px;
+      }
+   }
+   .head {
+      padding: 18px;
+   }
+   .rules-of-entrance {
+      &__text-block {
+         margin-bottom: 30px;
+      }
+      &__info {
+         margin-bottom: 20px;
+      }
+      &__btns-block {
+         flex-direction: column-reverse;
+         align-items: center;
+      }
+      &__btn-policy {
+         margin-right: unset;
+         margin-top: 15px;
+      }
+      &__btn-details {
+         min-width: 190px;
+      }
+   }
+   .banner {
+      &__title {
+         font-size: 17px;
+         margin-bottom: 35px;
+         max-width: 283px;
+      }
+      &__list-item::before {
+         top: 10px;
+      }
+   }
+   .footer {
+      &__content {
+         padding: 45px 0 100px;
+      }
+
+      &__block {
+         flex-direction: column;
+         align-items: center;
+         width: unset;
+         margin-bottom: unset;
+      }
+      &__link:not(:last-child) {
+         margin-right: unset;
+         margin-bottom: 30px;
+      }
+      &__link {
+         margin-bottom: 30px;
+         font-size: 12px;
+      }
+      &__block-center {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         position: static;
+      }
+      &__logo {
+         display: none;
+      }
+      &__rights {
+         font-size: 12px;
+         padding: 13px;
+      }
+   }
+   .header {
+      &__content {
+         flex-wrap: wrap;
+      }
+      &__contact-us {
+         order: 4;
+         width: 100%;
+         margin-top: 15px;
+      }
+   }
+   .lang__item {
+      padding-top: 5px;
+      padding-bottom: 5px;
+   }
+}
+// MAX-WIDTH 576.98PX breakpoints END
+
+@media (max-width: 374.98px) {
+   .header {
+      &__contact-us {
+         width: unset;
+      }
+   }
+   .lang {
+      margin-top: 16px;
+      order: 5;
+   }
+}
