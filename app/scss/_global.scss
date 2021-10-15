@@ -1,5 +1,6 @@
 html,
 body {
+	cursor: default;
 	height: 100%;
 	font-family: "Open Sans";
 	font-weight: 600;
@@ -65,8 +66,14 @@ textarea {
 .checkbox-style {
 	display: block;
 	cursor: pointer;
+	width: 22px;
+	height: 21.82px;
+	border: 1.5px solid #ffffff;
+	border-radius: 2px;
 }
 .checkbox-none:checked + .checkbox-style {
+	background: url("../images/SVG/check.svg") 2px 4px no-repeat;
+	color: #000;
 }
 .radio-style {
 	position: relative;
@@ -76,7 +83,25 @@ textarea {
 .radio-none:checked + .radio-style::before {
 	content: " ";
 }
-
+.form-policy-radio .radio-none:checked + .radio-style {
+	background: $white;
+	color: $blue;
+}
+.form-policy-radio {
+	display: flex;
+	&:not(:last-child) {
+		margin-right: 24px;
+	}
+	.radio-style {
+		@extend %itemCenter;
+		min-width: 200px;
+		padding: 10px 20px 11px;
+		font-size: 22px;
+		line-height: 143.18%;
+		border: 2px solid #ffffff;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	}
+}
 // popup
 .popup {
 	display: none;
@@ -84,20 +109,54 @@ textarea {
 	top: 0;
 	left: 0;
 	z-index: 99999;
-	width: 100%;
-	height: 100vh;
+	width: 100vw;
+	height: 100%;
+	min-height: 100%;
+	overflow-y: auto;
+	// overflow: hidden;
 	&__body {
 		// background: $text1;
+		background: rgba(11, 11, 11, 0.4);
 		width: 100%;
-		height: 100%;
+		min-height: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		overflow: hidden;
+	}
+	&__content {
+		margin: 20px 50px;
+		max-width: 1090px;
+		// max-height: 910px;
+		background: $white;
+		padding: 80px 26px 95px 80px;
+		// overflow-y: auto;
+		// overflow: hidden;
+		position: relative;
 	}
 	.popup-close {
+		position: absolute;
+		top: 0;
+		left: calc(100% + 22px);
+		cursor: pointer;
 	}
 }
+
 // popup end
+
+.input {
+	width: 100%;
+	line-height: 143.18%;
+	display: block;
+	padding: 10.5px 16px;
+	color: $white;
+	border-bottom: 1px solid $white;
+	font-weight: 400;
+	&::placeholder {
+		font-weight: 400;
+		color: $white;
+	}
+}
 
 // header start
 
@@ -152,6 +211,10 @@ textarea {
 			border-radius: 12px;
 			&.active-yellow {
 				background: $yellow;
+			}
+			&.active-blue {
+				background: $blue;
+				color: $white;
 			}
 		}
 	}

@@ -32,8 +32,8 @@
 						</a>
 					</div>
 					<div class="header__toggle">
-						<a href="#" class="header__toggle-item">Из Украины</a>
-						<a href="#" class="header__toggle-item active active-yellow">В Украину</a>
+						<a href="index-leave-Ukraine.html" class="header__toggle-item">Из Украины</a>
+						<a href="index.html" class="header__toggle-item active active-yellow">В Украину</a>
 					</div>
 					<div class="lang js-select">
 						<button type="button" class="lang__head js-select-head">
@@ -141,7 +141,8 @@
 								<div class="rules-of-entrance__btns-block">
 									<a href="#" class="rules-of-entrance__btn-policy btn btn-contour">Оформить страховой
 										полис</a>
-									<button class="rules-of-entrance__btn-details btn btn-yellow">Детальнее</button>
+									<button
+										class="rules-of-entrance__btn-details btn btn-yellow btn-popup btn-popup-rules-of-entrance">Детальнее</button>
 								</div>
 							</div>
 						</div>
@@ -163,21 +164,21 @@
 									</label>
 									<div class="search__container">
 										<div class="search__results h4">
-											<div class="search__item">Италия</div>
-											<div class="search__item">США</div>
-											<div class="search__item">Турция</div>
-											<div class="search__item">Болгария</div>
-											<div class="search__item">Молдова</div>
-											<div class="search__item">Беларусь</div>
-											<div class="search__item">Египет</div>
-											<div class="search__item">Канада</div>
-											<div class="search__item">Испания</div>
-											<div class="search__item">Израиль</div>
-											<div class="search__item">Индия</div>
-											<div class="search__item">Польша</div>
-											<div class="search__item">ОАЭ</div>
-											<div class="search__item">Россия</div>
-											<div class="search__item">Германия</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Италия</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">США</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Турция</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Болгария</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Молдова</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Беларусь</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Египет</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Канада</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Испания</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Израиль</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Индия</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Польша</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">ОАЭ</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Россия</div>
+											<div class="search__item btn-popup btn-popup-country-egypt">Германия</div>
 										</div>
 										<button type="button" class="search__btn btn btn-contour">Показать все</button>
 									</div>
@@ -196,7 +197,8 @@
 					<div class="container">
 						<div class="questions__content">
 							<p class="questions__title">ЕСТЬ ВОПРОСЫ?</p>
-							<button type="button" class="questions__btn btn btn-white">Часто задаваемые вопросы</button>
+							<button type="button" class="questions__btn btn btn-white btn-popup btn-popup-questions">Часто
+								задаваемые вопросы</button>
 							<div class="questions__img">
 								<img src="images/question-mark.png" alt="">
 							</div>
@@ -332,37 +334,861 @@
 				<!-- hotels rules start -->
 				<section class="hotels-rules">
 					<div class="hotels-rules__bg">
+					</div>
+					<div class="hotels-rules__bg-img">
 						<img src="images/hotel.png" alt="">
 					</div>
 					<div class="container">
 						<div class="hotels-rules__content">
 							<div class="hotels-rules__main-container">
-								<div class="hotels-rules__head head"></div>
+								<div class="hotels-rules__head head h1">ПРАВИЛА ПРЕБЫВАНИЯ В ОТЕЛЯХ</div>
 								<div class="hotels-rules__text-block">
-									<p class="hotels-rules__descr"></p>
-									<button type="button" class="hotels-rules__btn btn btn-contour"></button>
+									<p class="hotels-rules__descr h2">На входе в отель необходимо:</p>
+									<button type="button"
+										class="hotels-rules__btn btn btn-contour btn-popup btn-popup-hotels-rules">Детальнее</button>
 								</div>
 							</div>
-							<div class="hotels-rules__items">
-
+							<div class="hotels-rules__rightside">
+								<div class="hotels-rules__items">
+									<div class="short-info">
+										<div class="short-info__img">
+											<img src="images/thermometer.png" alt="">
+										</div>
+										<p class="short-info__text">Пройти
+											температурный скрининг</p>
+									</div>
+									<div class="short-info">
+										<div class="short-info__img">
+											<img src="images/masked-man.png" alt="">
+										</div>
+										<p class="short-info__text">Иметь защитную маску или приобрести на рецепции</p>
+									</div>
+									<div class="short-info">
+										<div class="short-info__img">
+											<img src="images/bactericide.png" alt="">
+										</div>
+										<p class="short-info__text">Продезинфицировать
+											руки</p>
+									</div>
+								</div>
+								<button type="button"
+									class="hotels-rules__btn-mobile btn btn-contour btn-popup btn-popup-hotels-rules">Детальнее</button>
 							</div>
 						</div>
 					</div>
 				</section>
 				<!-- hotels rules end -->
 
+				<!-- public rules start -->
+				<section class="public-rules">
+					<div class="container">
+						<div class="public-rules__content">
+							<div class="public-rules__head head h1">ПРАВИЛА ПРЕБЫВАНИЯ
+								В ОБЩЕСТВЕННЫХ МЕСТАХ</div>
+							<div class="public-rules__body">
+								<div class="public-rules__text-block">
+									<p class="public-rules__subtitle">НА ВРЕМЯ КАРАНТИНА ЗАПРЕЩЕНО!</p>
+									<p class="public-rules__descr">
+										Пребывание в транспорте, торговых и развлекательных центрах, магазинах, помещениях без
+										средств индивидуальной защиты, в частности <span>респиратора или защитной маски, в том
+											числе
+											изготовленных самостоятельно;</span>
+									</p>
+									<button
+										class="public-rules__btn btn btn-contour btn-popup btn-popup-public-rules">Детальнее</button>
+								</div>
+								<div class="public-rules__items">
+									<div class="short-info">
+										<div class="short-info__img">
+											<img src="images/keep-distance.png" alt="">
+										</div>
+										<p class="short-info__text">Придерживайтесь дистанции
+											не менее 1,5 м</p>
+									</div>
+									<div class="short-info">
+										<div class="short-info__img">
+											<img src="images/bactericide.png" alt="">
+										</div>
+										<p class="short-info__text">Регулярно
+											дезинфицируйте руки</p>
+									</div>
+									<div class="short-info">
+										<div class="short-info__img">
+											<img src="images/gloves.png" alt="">
+										</div>
+										<p class="short-info__text">Используйте
+											защитные перчатки</p>
+									</div>
+									<div class="short-info">
+										<div class="short-info__img">
+											<img src="images/credit-card.png" alt="">
+										</div>
+										<p class="short-info__text">Отдавайте предпочтение
+											бесконтактной оплате</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- public rules end -->
+
+				<!-- info travel start -->
+				<section class="info-travel">
+					<div class="info-travel__bg"></div>
+					<div class="info-travel__bg-img">
+						<img src="images/humans.png" alt="">
+					</div>
+					<div class="container">
+						<div class="info-travel__content">
+							<div class="info-travel__head head h1">ИНФОРМАЦИЯ ДЛЯ ПУТЕШЕСТВУЮЩИХ ЗА ГРАНИЦУ</div>
+							<div class="info-travel__body">
+								<p class="info-travel__descr h2">Что делать, если... <br>
+									...я уже запланировал путешествие и даже оплатил средства?</p>
+								<div class="info-travel__img-mobile">
+									<img src="images/humans.png" alt="">
+								</div>
+								<button
+									class="info-travel__btn btn btn-contour btn-popup btn-popup-info-travel">Детальнее</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- info travel end -->
+
+				<!-- block forms start -->
+				<section class="block-forms">
+					<div class="container">
+						<div class="block-forms__content">
+							<div class="block-forms__buttons">
+								<button class="block-forms__btn-policy btn btn-blue">
+									Оформить страховой полис
+									<span class="icon icon-triangle-right"></span>
+								</button>
+								<button class="block-forms__btn-order-test btn btn-yellow">Заказать тест</button>
+							</div>
+							<div class="form-policy">
+								<div class="form-policy__content">
+									<p class="form-policy__step h2">1 шаг из 3</p>
+
+									<div class="form-policy__tariffs">
+										<p class="form-policy__tariffs-title">Тарифы</p>
+										<div class="form-policy__tariffs-radio">
+											<label class="form-policy-radio">
+												<input type="radio" name="tariff" class="radio-none">
+												<div class="radio-style h2">BASIC</div>
+											</label>
+
+											<label class="form-policy-radio">
+												<input type="radio" name="tariff" class="radio-none" checked>
+												<div class="radio-style h2">STANDART</div>
+											</label>
+
+											<label class="form-policy-radio">
+												<input type="radio" name="tariff" class="radio-none">
+												<div class="radio-style h2">MAX</div>
+											</label>
+										</div>
+									</div>
+
+									<p class="form-policy__descr">*Введите фамилию и имя латиницей, как в загранпаспорте</p>
+									<div class="form-policy__container">
+										<div class="form-policy__leftside">
+											<div class="form-policy__input-block">
+												<input type="text" class="form-policy__input input" placeholder="Фамилия">
+												<input type="text" class="form-policy__input input" placeholder="Имя">
+												<input type="text" class="form-policy__input input" placeholder="Паспорт">
+												<input type="text" class="form-policy__input input" placeholder="Дата рождения">
+												<input type="text" class="form-policy__input form-policy__input-promo input"
+													placeholder="Промокод">
+											</div>
+
+										</div>
+
+										<div class="form-policy__rightside">
+											<div class="form-policy__input-block">
+												<div class="form-policy__select js-select">
+													<div class="form-policy__select-head js-select-head">
+														<p>Страна поездки</p>
+														<span class="icon icon-triangle-right"></span>
+													</div>
+													<div class="form-policy__select-body h4 js-select-body">
+														<p class="form-policy__select-item js-select-item">Вся Европа</p>
+														<p class="form-policy__select-item js-select-item">Весь мир</p>
+														<div class="form-policy__search">
+															<label class="form-policy__search-input-box">
+																<input type="text" class="form-policy__search-input"
+																	placeholder="Найти страну">
+																<span class="icon icon-search"></span>
+															</label>
+															<div class="form-policy__search-result">
+																<p
+																	class="form-policy__search-item form-policy__select-item js-select-item">
+																	Австралия</p>
+																<p
+																	class="form-policy__search-item form-policy__select-item js-select-item">
+																	Австрия</p>
+																<p
+																	class="form-policy__search-item form-policy__select-item js-select-item">
+																	Азербайджан</p>
+																<p
+																	class="form-policy__search-item form-policy__select-item js-select-item">
+																	Албания</p>
+																<p
+																	class="form-policy__search-item form-policy__select-item js-select-item">
+																	Алжир</p>
+																<p
+																	class="form-policy__search-item form-policy__select-item js-select-item">
+																	Американское Самоа
+																</p>
+																<p
+																	class="form-policy__search-item form-policy__select-item js-select-item">
+																	Ангилья</p>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="form-policy__select js-select">
+													<div class="form-policy__select-head js-select-head">
+														<p>Дата поездки</p>
+														<span class="icon icon-triangle-right"></span>
+													</div>
+													<div class="form-policy__select-body js-select-body">
+
+													</div>
+												</div>
+												<div class="form-policy__select js-select">
+													<div class="form-policy__select-head js-select-head">
+														<p>Вид отдыха</p>
+														<span class="icon icon-triangle-right"></span>
+													</div>
+													<div class="form-policy__select-body h4 js-select-body">
+														<p class="form-policy__select-item js-select-item">Спокойный отдых</p>
+														<p class="form-policy__select-item js-select-item">Экстремальный спорт</p>
+													</div>
+												</div>
+												<input type="text" class="form-policy__input input" placeholder="Номер телефона">
+												<input type="text" class="form-policy__input input" placeholder="E-mail">
+											</div>
+											<div class="form-policy__sum">
+												<p class="form-policy__sum-title h2">Сумма к оплате:</p>
+												<p class="form-policy__sum-price">
+													1275, 43
+													<span>грн</span>
+												</p>
+												<p class="form-policy__sum-days">
+													Количество дней:
+													<span>14 дней</span>
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- 
+									<div class="form-policy__participants">
+										<p class="form-policy__participants-title"></p>
+										<div class="form-policy__tourist">
+											<p class="form-policy__subtitle">Турист №1</p>
+											<div class="form-policy__container">
+												<div class="form-policy__leftside">
+													<div class="form-policy__input-block">
+														<input type="text" class="form-policy__input input" placeholder="Фамилия">
+														<input type="text" class="form-policy__input input" placeholder="Имя">
+													</div>
+												</div>
+												<div class="form-policy__leftside">
+													<div class="form-policy__input-block">
+														<input type="text" class="form-policy__input input" placeholder="Паспорт">
+														<input type="text" class="form-policy__input input"
+															placeholder="Дата рождения">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div> -->
+
+									<div class="form-policy__bottom-block">
+										<div class="form-policy__leftside">
+											<div class="form-policy__check-block">
+												<label class="form-policy__check-row">
+													<div class="chechbox">
+														<input type="checkbox" name="argeement" class="checkbox-none">
+														<span class="checkbox-style"></span>
+													</div>
+													<p class="form-policy__check-text">Согласие на обработку персональных данных</p>
+												</label>
+												<label class="form-policy__check-row">
+													<div class="chechbox">
+														<input type="checkbox" name="conditions" class="checkbox-none">
+														<span class="checkbox-style"></span>
+													</div>
+													<p class="form-policy__check-text">Условия договора</p>
+												</label>
+											</div>
+											<div class="form-policy__buttons">
+												<button type="button" class="form-policy__next btn btn-white">Далее</button>
+												<button type="button" class="form-policy__add">Добавить
+													туриста</button>
+											</div>
+										</div>
+										<div class="form-policy__rightside">
+											<div class="form-policy__check-block">
+												<label class="form-policy__check-row">
+													<div class="chechbox">
+														<input type="checkbox" name="argeement" class="checkbox-none">
+														<span class="checkbox-style"></span>
+													</div>
+													<p class="form-policy__check-text">Согласие на обработку персональных данных</p>
+												</label>
+												<label class="form-policy__check-row">
+													<div class="chechbox">
+														<input type="checkbox" name="conditions" class="checkbox-none">
+														<span class="checkbox-style"></span>
+													</div>
+													<p class="form-policy__check-text">Условия договора</p>
+												</label>
+											</div>
+											<div class="form-policy__buttons">
+												<button type="button" class="form-policy__next btn btn-white">Далее</button>
+												<button type="button" class="form-policy__add">Добавить
+													туриста</button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- block forms end -->
+
+				<!-- company start -->
+				<section class="block-company">
+					<div class="container">
+						<div class="block-company__content">
+							<div class="block-company__item">
+								<div class="block-company__item-img">
+									<img src="images/dart.png" alt="">
+								</div>
+								<p class="block-company__item-text">Государственное агентство развития туризма Украины</p>
+							</div>
+							<div class="block-company__item">
+								<div class="block-company__item-img">
+									<img src="images/visitukraine.png" alt="">
+								</div>
+								<p class="block-company__item-text">Информаци про Украину</p>
+							</div>
+							<div class="block-company__item">
+								<div class="block-company__item-img">
+									<img src="images/mifua.png" alt="">
+								</div>
+								<p class="block-company__item-text">Министерство инфраструктуры Украины</p>
+							</div>
+							<div class="block-company__item">
+								<div class="block-company__item-img">
+									<img src="images/moz.png" alt="">
+								</div>
+								<p class="block-company__item-text">Министерство здравоохранения Украины</p>
+							</div>
+							<div class="block-company__item">
+								<div class="block-company__item-img">
+									<img src="images/sbs.png" alt="">
+								</div>
+								<p class="block-company__item-text">Государственная пограничная служба Украины</p>
+							</div>
+							<div class="block-company__item mfa">
+								<div class="block-company__item-img">
+									<img src="images/MFA.png" alt="">
+								</div>
+								<p class="block-company__item-text">Министерство иностранных дел Украины</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- company end -->
+
 			</div>
 			<!-- CONTENT end -->
 
-			<!-- POPUP  -->
-			<div class="popup">
+			<!-- POPUP rules-of-entrance  -->
+			<div class="popup popup-details popup-rules-of-entrance">
 				<div class="popup__body">
 					<div class="popup__content">
-
+						<span class="icon icon-close popup-close"></span>
+						<div class="popup-details__content">
+							<div class="popup-details__wrapper">
+								<div class="popup-details__head head h3">ПРАВИЛА ВЪЕЗДА В УКРАИНУ</div>
+								<div class="popup-details__body h4">
+									<p class="popup-details__p popup-details__p-semibold popup-details__p-center">Актуальные
+										правила
+										пересечения украинской
+										границы регулируются Постановлением Кабинета Министров Украины от 9 декабря 2020 № 1236, с
+										последними изменениями от 18 августа 2021 Постановление КМУ № 889</p>
+									<p class="popup-details__p"> <mark class=" popup-details__mark"> Въезд в Украину иностранцев,
+											в том числе,
+											владельцев временного вида на жительство, и лиц без гражданства</mark>
+									</p>
+									<p class="popup-details__p">Всем иностранцам независимо от возраста и страны прибытия для
+										въезда
+										в Украину нужно иметь полис (свидетельство, сертификат) страхования, выданный страховой
+										компанией, зарегистрированной в Украине, или иностранной страховой компанией, которая
+										имеет
+										представительство на территории Украины или договорные отношения со страховой
+										компанией-партнером на территории Украины (ассистанс), который покрывает расходы,
+										связанные с
+										лечением COVID-19, обсервацией, и действует на весь срок пребывания в Украине.
+									</p>
+									<br>
+									<p class="popup-details__p">Страховой полис, который был приобретен через портал, может быть
+										перенесён на необходимый срок для туриста. Процедура изменения дат может быть осуществлена
+										несколько раз.</p>
+									<button type="button" class="popup-details__btn btn btn-contour">Оформить страховой
+										полис</button>
+									<p class="popup-details__p">А также иметь один из указанных документов:
+									</p>
+									<p class="popup-details__p">• документ, подтверждающий получение одной или нескольких доз
+										вакцины от COVID-19, которые одобрены ВОЗ для экстренного применения: Pfizer / BioNTech,
+										Johnson & Johnson's Janssen, AstraZeneca / Vaxzevria, AstraZeneca / Covishield (India),
+										AstraZeneca / SKBio (South Korea), Moderna / Spikevax, Sinopharm (Vero Cell), CoronaVac
+										(Sinovac); или</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+										quos itaque velit dignissimos eius at sed pariatur ab laboriosam similique?</p>
+									<p class="popup-details__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+										Sapiente
+										delectus quos error debitis beatae blanditiis eos quaerat quam. Distinctio recusandae
+										atque
+										debitis placeat molestias alias aut quis ipsum pariatur architecto doloribus sint illum
+										eligendi, similique totam quaerat? In repellat eius, eaque iusto iure consequuntur modi,
+										dicta similique aperiam autem obcaecati minima earum quidem dolores facere! Corrupti
+										explicabo est cum? Qui, distinctio maiores aliquid temporibus tempore sunt voluptatibus
+										placeat rerum adipisci necessitatibus et repellat saepe odio enim excepturi facere
+										consequuntur facilis modi amet praesentium delectus porro laborum! Eos at dolore aliquid,
+										consequuntur labore, non nulla cum tempore nostrum veniam, impedit quos.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+										fugit harum neque nihil. Debitis aperiam nulla facilis natus est modi voluptatum, nemo,
+										minima mollitia voluptates, sequi quia delectus neque perspiciatis obcaecati nobis
+										officiis.
+										Assumenda, voluptate iure iste sapiente exercitationem in.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet.</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!-- POPUP END  -->
+			<!-- POPUP rules-of-entrance END  -->
+
+			<!-- POPUP city-rules  -->
+			<div class="popup popup-details popup-city-rules">
+				<div class="popup__body">
+					<div class="popup__content">
+						<span class="icon icon-close popup-close"></span>
+						<div class="popup-details__content">
+							<div class="popup-details__wrapper">
+								<div class="popup-details__head head h3">ПРАВИЛА ПРЕБЫВАНИЯ В ГОРОДАХ</div>
+								<div class="popup-details__body h4">
+									<p class="popup-details__p popup-details__p-semibold popup-details__p-center">Актуальные
+										правила
+										пересечения украинской
+										границы регулируются Постановлением Кабинета Министров Украины от 9 декабря 2020 № 1236, с
+										последними изменениями от 18 августа 2021 Постановление КМУ № 889</p>
+									<p class="popup-details__p"> <mark class=" popup-details__mark"> Въезд в Украину иностранцев,
+											в том числе,
+											владельцев временного вида на жительство, и лиц без гражданства</mark>
+									</p>
+									<p class="popup-details__p">Всем иностранцам независимо от возраста и страны прибытия для
+										въезда
+										в Украину нужно иметь полис (свидетельство, сертификат) страхования, выданный страховой
+										компанией, зарегистрированной в Украине, или иностранной страховой компанией, которая
+										имеет
+										представительство на территории Украины или договорные отношения со страховой
+										компанией-партнером на территории Украины (ассистанс), который покрывает расходы,
+										связанные с
+										лечением COVID-19, обсервацией, и действует на весь срок пребывания в Украине.
+									</p>
+									<br>
+									<p class="popup-details__p">Страховой полис, который был приобретен через портал, может быть
+										перенесён на необходимый срок для туриста. Процедура изменения дат может быть осуществлена
+										несколько раз.</p>
+									<button type="button" class="popup-details__btn btn btn-contour">Оформить страховой
+										полис</button>
+									<p class="popup-details__p">А также иметь один из указанных документов:
+									</p>
+									<p class="popup-details__p">• документ, подтверждающий получение одной или нескольких доз
+										вакцины от COVID-19, которые одобрены ВОЗ для экстренного применения: Pfizer / BioNTech,
+										Johnson & Johnson's Janssen, AstraZeneca / Vaxzevria, AstraZeneca / Covishield (India),
+										AstraZeneca / SKBio (South Korea), Moderna / Spikevax, Sinopharm (Vero Cell), CoronaVac
+										(Sinovac); или</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+										quos itaque velit dignissimos eius at sed pariatur ab laboriosam similique?</p>
+									<p class="popup-details__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+										Sapiente
+										delectus quos error debitis beatae blanditiis eos quaerat quam. Distinctio recusandae
+										atque
+										debitis placeat molestias alias aut quis ipsum pariatur architecto doloribus sint illum
+										eligendi, similique totam quaerat? In repellat eius, eaque iusto iure consequuntur modi,
+										dicta similique aperiam autem obcaecati minima earum quidem dolores facere! Corrupti
+										explicabo est cum? Qui, distinctio maiores aliquid temporibus tempore sunt voluptatibus
+										placeat rerum adipisci necessitatibus et repellat saepe odio enim excepturi facere
+										consequuntur facilis modi amet praesentium delectus porro laborum! Eos at dolore aliquid,
+										consequuntur labore, non nulla cum tempore nostrum veniam, impedit quos.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+										fugit harum neque nihil. Debitis aperiam nulla facilis natus est modi voluptatum, nemo,
+										minima mollitia voluptates, sequi quia delectus neque perspiciatis obcaecati nobis
+										officiis.
+										Assumenda, voluptate iure iste sapiente exercitationem in.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- POPUP city-rules END  -->
+
+			<!-- POPUP questions  -->
+			<div class="popup popup-details popup-questions">
+				<div class="popup__body">
+					<div class="popup__content">
+						<span class="icon icon-close popup-close"></span>
+						<div class="popup-details__content">
+							<div class="popup-details__wrapper">
+								<div class="popup-details__head head h3">Часто задаваемые вопросы</div>
+								<div class="popup-details__body h4">
+									<p class="popup-details__p popup-details__p-semibold popup-details__p-center">Актуальные
+										правила
+										пересечения украинской
+										границы регулируются Постановлением Кабинета Министров Украины от 9 декабря 2020 № 1236, с
+										последними изменениями от 18 августа 2021 Постановление КМУ № 889</p>
+									<p class="popup-details__p"> <mark class=" popup-details__mark"> Въезд в Украину иностранцев,
+											в том числе,
+											владельцев временного вида на жительство, и лиц без гражданства</mark>
+									</p>
+									<p class="popup-details__p">Всем иностранцам независимо от возраста и страны прибытия для
+										въезда
+										в Украину нужно иметь полис (свидетельство, сертификат) страхования, выданный страховой
+										компанией, зарегистрированной в Украине, или иностранной страховой компанией, которая
+										имеет
+										представительство на территории Украины или договорные отношения со страховой
+										компанией-партнером на территории Украины (ассистанс), который покрывает расходы,
+										связанные с
+										лечением COVID-19, обсервацией, и действует на весь срок пребывания в Украине.
+									</p>
+									<br>
+									<p class="popup-details__p">Страховой полис, который был приобретен через портал, может быть
+										перенесён на необходимый срок для туриста. Процедура изменения дат может быть осуществлена
+										несколько раз.</p>
+									<button type="button" class="popup-details__btn btn btn-contour">Оформить страховой
+										полис</button>
+									<p class="popup-details__p">А также иметь один из указанных документов:
+									</p>
+									<p class="popup-details__p">• документ, подтверждающий получение одной или нескольких доз
+										вакцины от COVID-19, которые одобрены ВОЗ для экстренного применения: Pfizer / BioNTech,
+										Johnson & Johnson's Janssen, AstraZeneca / Vaxzevria, AstraZeneca / Covishield (India),
+										AstraZeneca / SKBio (South Korea), Moderna / Spikevax, Sinopharm (Vero Cell), CoronaVac
+										(Sinovac); или</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+										quos itaque velit dignissimos eius at sed pariatur ab laboriosam similique?</p>
+									<p class="popup-details__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+										Sapiente
+										delectus quos error debitis beatae blanditiis eos quaerat quam. Distinctio recusandae
+										atque
+										debitis placeat molestias alias aut quis ipsum pariatur architecto doloribus sint illum
+										eligendi, similique totam quaerat? In repellat eius, eaque iusto iure consequuntur modi,
+										dicta similique aperiam autem obcaecati minima earum quidem dolores facere! Corrupti
+										explicabo est cum? Qui, distinctio maiores aliquid temporibus tempore sunt voluptatibus
+										placeat rerum adipisci necessitatibus et repellat saepe odio enim excepturi facere
+										consequuntur facilis modi amet praesentium delectus porro laborum! Eos at dolore aliquid,
+										consequuntur labore, non nulla cum tempore nostrum veniam, impedit quos.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+										fugit harum neque nihil. Debitis aperiam nulla facilis natus est modi voluptatum, nemo,
+										minima mollitia voluptates, sequi quia delectus neque perspiciatis obcaecati nobis
+										officiis.
+										Assumenda, voluptate iure iste sapiente exercitationem in.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- POPUP questions END  -->
+
+			<!-- POPUP hotels-rules  -->
+			<div class="popup popup-details popup-hotels-rules">
+				<div class="popup__body">
+					<div class="popup__content">
+						<span class="icon icon-close popup-close"></span>
+						<div class="popup-details__content">
+							<div class="popup-details__wrapper">
+								<div class="popup-details__head head h3">ПРАВИЛА ПРЕБЫВАНИЯ В ОТЕЛЯХ</div>
+								<div class="popup-details__body h4">
+									<p class="popup-details__p popup-details__p-semibold popup-details__p-center">Актуальные
+										правила
+										пересечения украинской
+										границы регулируются Постановлением Кабинета Министров Украины от 9 декабря 2020 № 1236, с
+										последними изменениями от 18 августа 2021 Постановление КМУ № 889</p>
+									<p class="popup-details__p"> <mark class=" popup-details__mark"> Въезд в Украину иностранцев,
+											в том числе,
+											владельцев временного вида на жительство, и лиц без гражданства</mark>
+									</p>
+									<p class="popup-details__p">Всем иностранцам независимо от возраста и страны прибытия для
+										въезда
+										в Украину нужно иметь полис (свидетельство, сертификат) страхования, выданный страховой
+										компанией, зарегистрированной в Украине, или иностранной страховой компанией, которая
+										имеет
+										представительство на территории Украины или договорные отношения со страховой
+										компанией-партнером на территории Украины (ассистанс), который покрывает расходы,
+										связанные с
+										лечением COVID-19, обсервацией, и действует на весь срок пребывания в Украине.
+									</p>
+									<br>
+									<p class="popup-details__p">Страховой полис, который был приобретен через портал, может быть
+										перенесён на необходимый срок для туриста. Процедура изменения дат может быть осуществлена
+										несколько раз.</p>
+									<button type="button" class="popup-details__btn btn btn-contour">Оформить страховой
+										полис</button>
+									<p class="popup-details__p">А также иметь один из указанных документов:
+									</p>
+									<p class="popup-details__p">• документ, подтверждающий получение одной или нескольких доз
+										вакцины от COVID-19, которые одобрены ВОЗ для экстренного применения: Pfizer / BioNTech,
+										Johnson & Johnson's Janssen, AstraZeneca / Vaxzevria, AstraZeneca / Covishield (India),
+										AstraZeneca / SKBio (South Korea), Moderna / Spikevax, Sinopharm (Vero Cell), CoronaVac
+										(Sinovac); или</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+										quos itaque velit dignissimos eius at sed pariatur ab laboriosam similique?</p>
+									<p class="popup-details__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+										Sapiente
+										delectus quos error debitis beatae blanditiis eos quaerat quam. Distinctio recusandae
+										atque
+										debitis placeat molestias alias aut quis ipsum pariatur architecto doloribus sint illum
+										eligendi, similique totam quaerat? In repellat eius, eaque iusto iure consequuntur modi,
+										dicta similique aperiam autem obcaecati minima earum quidem dolores facere! Corrupti
+										explicabo est cum? Qui, distinctio maiores aliquid temporibus tempore sunt voluptatibus
+										placeat rerum adipisci necessitatibus et repellat saepe odio enim excepturi facere
+										consequuntur facilis modi amet praesentium delectus porro laborum! Eos at dolore aliquid,
+										consequuntur labore, non nulla cum tempore nostrum veniam, impedit quos.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+										fugit harum neque nihil. Debitis aperiam nulla facilis natus est modi voluptatum, nemo,
+										minima mollitia voluptates, sequi quia delectus neque perspiciatis obcaecati nobis
+										officiis.
+										Assumenda, voluptate iure iste sapiente exercitationem in.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- POPUP hotels-rules END  -->
+
+			<!-- POPUP  public-rules -->
+			<div class="popup popup-details popup-public-rules">
+				<div class="popup__body">
+					<div class="popup__content">
+						<span class="icon icon-close popup-close"></span>
+						<div class="popup-details__content">
+							<div class="popup-details__wrapper">
+								<div class="popup-details__head head h3">ПРАВИЛА ПРЕБЫВАНИЯ В ОБЩЕСТВЕННЫХ МЕСТАХ</div>
+								<div class="popup-details__body h4">
+									<p class="popup-details__p popup-details__p-semibold popup-details__p-center">Актуальные
+										правила
+										пересечения украинской
+										границы регулируются Постановлением Кабинета Министров Украины от 9 декабря 2020 № 1236, с
+										последними изменениями от 18 августа 2021 Постановление КМУ № 889</p>
+									<p class="popup-details__p"> <mark class=" popup-details__mark"> Въезд в Украину иностранцев,
+											в том числе,
+											владельцев временного вида на жительство, и лиц без гражданства</mark>
+									</p>
+									<p class="popup-details__p">Всем иностранцам независимо от возраста и страны прибытия для
+										въезда
+										в Украину нужно иметь полис (свидетельство, сертификат) страхования, выданный страховой
+										компанией, зарегистрированной в Украине, или иностранной страховой компанией, которая
+										имеет
+										представительство на территории Украины или договорные отношения со страховой
+										компанией-партнером на территории Украины (ассистанс), который покрывает расходы,
+										связанные с
+										лечением COVID-19, обсервацией, и действует на весь срок пребывания в Украине.
+									</p>
+									<br>
+									<p class="popup-details__p">Страховой полис, который был приобретен через портал, может быть
+										перенесён на необходимый срок для туриста. Процедура изменения дат может быть осуществлена
+										несколько раз.</p>
+									<button type="button" class="popup-details__btn btn btn-contour">Оформить страховой
+										полис</button>
+									<p class="popup-details__p">А также иметь один из указанных документов:
+									</p>
+									<p class="popup-details__p">• документ, подтверждающий получение одной или нескольких доз
+										вакцины от COVID-19, которые одобрены ВОЗ для экстренного применения: Pfizer / BioNTech,
+										Johnson & Johnson's Janssen, AstraZeneca / Vaxzevria, AstraZeneca / Covishield (India),
+										AstraZeneca / SKBio (South Korea), Moderna / Spikevax, Sinopharm (Vero Cell), CoronaVac
+										(Sinovac); или</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+										quos itaque velit dignissimos eius at sed pariatur ab laboriosam similique?</p>
+									<p class="popup-details__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+										Sapiente
+										delectus quos error debitis beatae blanditiis eos quaerat quam. Distinctio recusandae
+										atque
+										debitis placeat molestias alias aut quis ipsum pariatur architecto doloribus sint illum
+										eligendi, similique totam quaerat? In repellat eius, eaque iusto iure consequuntur modi,
+										dicta similique aperiam autem obcaecati minima earum quidem dolores facere! Corrupti
+										explicabo est cum? Qui, distinctio maiores aliquid temporibus tempore sunt voluptatibus
+										placeat rerum adipisci necessitatibus et repellat saepe odio enim excepturi facere
+										consequuntur facilis modi amet praesentium delectus porro laborum! Eos at dolore aliquid,
+										consequuntur labore, non nulla cum tempore nostrum veniam, impedit quos.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+										fugit harum neque nihil. Debitis aperiam nulla facilis natus est modi voluptatum, nemo,
+										minima mollitia voluptates, sequi quia delectus neque perspiciatis obcaecati nobis
+										officiis.
+										Assumenda, voluptate iure iste sapiente exercitationem in.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- POPUP public-rules END  -->
+
+			<!-- POPUP info-travel  -->
+			<div class="popup popup-details popup-info-travel">
+				<div class="popup__body">
+					<div class="popup__content">
+						<span class="icon icon-close popup-close"></span>
+						<div class="popup-details__content">
+							<div class="popup-details__wrapper">
+								<div class="popup-details__head head h3">ИНФОРМАЦИЯ ДЛЯ ПУТЕШЕСТВУЮЩИХ ЗА ГРАНИЦУ</div>
+								<div class="popup-details__body h4">
+									<p class="popup-details__p popup-details__p-semibold popup-details__p-center">Актуальные
+										правила
+										пересечения украинской
+										границы регулируются Постановлением Кабинета Министров Украины от 9 декабря 2020 № 1236, с
+										последними изменениями от 18 августа 2021 Постановление КМУ № 889</p>
+									<p class="popup-details__p"> <mark class=" popup-details__mark"> Въезд в Украину иностранцев,
+											в том числе,
+											владельцев временного вида на жительство, и лиц без гражданства</mark>
+									</p>
+									<p class="popup-details__p">Всем иностранцам независимо от возраста и страны прибытия для
+										въезда
+										в Украину нужно иметь полис (свидетельство, сертификат) страхования, выданный страховой
+										компанией, зарегистрированной в Украине, или иностранной страховой компанией, которая
+										имеет
+										представительство на территории Украины или договорные отношения со страховой
+										компанией-партнером на территории Украины (ассистанс), который покрывает расходы,
+										связанные с
+										лечением COVID-19, обсервацией, и действует на весь срок пребывания в Украине.
+									</p>
+									<br>
+									<p class="popup-details__p">Страховой полис, который был приобретен через портал, может быть
+										перенесён на необходимый срок для туриста. Процедура изменения дат может быть осуществлена
+										несколько раз.</p>
+									<button type="button" class="popup-details__btn btn btn-contour">Оформить страховой
+										полис</button>
+									<p class="popup-details__p">А также иметь один из указанных документов:
+									</p>
+									<p class="popup-details__p">• документ, подтверждающий получение одной или нескольких доз
+										вакцины от COVID-19, которые одобрены ВОЗ для экстренного применения: Pfizer / BioNTech,
+										Johnson & Johnson's Janssen, AstraZeneca / Vaxzevria, AstraZeneca / Covishield (India),
+										AstraZeneca / SKBio (South Korea), Moderna / Spikevax, Sinopharm (Vero Cell), CoronaVac
+										(Sinovac); или</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+										quos itaque velit dignissimos eius at sed pariatur ab laboriosam similique?</p>
+									<p class="popup-details__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+										Sapiente
+										delectus quos error debitis beatae blanditiis eos quaerat quam. Distinctio recusandae
+										atque
+										debitis placeat molestias alias aut quis ipsum pariatur architecto doloribus sint illum
+										eligendi, similique totam quaerat? In repellat eius, eaque iusto iure consequuntur modi,
+										dicta similique aperiam autem obcaecati minima earum quidem dolores facere! Corrupti
+										explicabo est cum? Qui, distinctio maiores aliquid temporibus tempore sunt voluptatibus
+										placeat rerum adipisci necessitatibus et repellat saepe odio enim excepturi facere
+										consequuntur facilis modi amet praesentium delectus porro laborum! Eos at dolore aliquid,
+										consequuntur labore, non nulla cum tempore nostrum veniam, impedit quos.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+										fugit harum neque nihil. Debitis aperiam nulla facilis natus est modi voluptatum, nemo,
+										minima mollitia voluptates, sequi quia delectus neque perspiciatis obcaecati nobis
+										officiis.
+										Assumenda, voluptate iure iste sapiente exercitationem in.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- POPUP info-travel END  -->
+
+			<!-- POPUP country-egypt  -->
+			<div class="popup popup-country popup-country-egypt">
+				<div class="popup__body">
+					<div class="popup__content">
+						<span class="icon icon-close popup-close"></span>
+						<div class="popup-country__content">
+							<div class="popup-country__wrapper">
+								<div class="popup-country__head">
+									<div class="popup-country__flag">
+										<img src="images/flag-egypt.png" alt="">
+									</div>
+									<p class="popup-country__name h1">ЕГИПЕТ</p>
+								</div>
+								<div class="popup-country__body">
+									<div class="popup-country__item">
+										<div class="popup-country__item-img">
+											<img src="images/keep-distance.png" alt="">
+										</div>
+										<div class="popup-country__item-text">
+											<p class="popup-country__item-title h2">Ограничение въезда</p>
+											<p class="popup-country__item-descr h4">Невакцинированные граждане должны установить
+												приложение Вдома</p>
+										</div>
+									</div>
+									<div class="popup-country__item">
+										<div class="popup-country__item-img">
+											<img src="images/keep-distance.png" alt="">
+										</div>
+										<div class="popup-country__item-text">
+											<p class="popup-country__item-title h2">Виза</p>
+											<p class="popup-country__item-descr h4">нужна</p>
+										</div>
+									</div>
+									<div class="popup-country__item">
+										<div class="popup-country__item-img">
+											<img src="images/keep-distance.png" alt="">
+										</div>
+										<div class="popup-country__item-text">
+											<p class="popup-country__item-title h2">Страховка от COVID-19</p>
+											<p class="popup-country__item-descr h4">Необходимо иметь страховой полис, выданный
+												украинской страховой компанией или иностранной страховой компанией, которая имеет
+												представительство в Украине</p>
+										</div>
+									</div>
+									<div class="popup-country__item">
+										<div class="popup-country__item-img">
+											<img src="images/keep-distance.png" alt="">
+										</div>
+										<div class="popup-country__item-text">
+											<p class="popup-country__item-title h2">Условия въезда</p>
+											<p class="popup-country__item-descr h4">
+												• документ, подтверждающий получение одной или
+												нескольких доз вакцины от COVID-19, которые одобрены ВОЗ для использования в
+												чрезвычайных ситуациях; или
+												<br>
+												• иностранный COVID-сертификат, подтверждающий вакцинацию от COVID-19 вакцинами,
+												которые одобрены ВОЗ для использования в чрезвычайных ситуациях, отрицательный
+												результат теста методом ПЦР или выздоровление лица от COVID-19; или
+												<br>
+												• отрицательный результат ПЦР-теста или экспресс-теста на антиген, который сделан не
+												более чем за 72 часа до въезда
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- POPUP country-egypt END  -->
 
 		</main>
 		<!-- MAIN end -->
