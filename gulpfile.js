@@ -41,7 +41,9 @@ function images() {
 function scripts() {
   return src([
     'node_modules/jquery/dist/jquery.js',
-    'node_modules/swiper/swiper-bundle.min.js',
+    'node_modules/simplebar/dist/simplebar.min.js',
+    'node_modules/daterangepicker/moment.min.js',
+    'node_modules/daterangepicker/daterangepicker.js',
     'app/js/main.js'
   ])
     .pipe(concat('main.min.js'))
@@ -51,9 +53,13 @@ function scripts() {
 }
 
 function styles() {
-  return src('app/scss/style.scss')
+  return src([
+    'node_modules/simplebar/dist/simplebar.css',
+    'node_modules/daterangepicker/daterangepicker.css',
+    'app/scss/style.scss'
+  ])
     .pipe(scss({ outputStyle: 'compressed' }))
-    .pipe(concat('style.min.css'))
+    .pipe(concat('style.css'))
     .pipe(autoprefixer({
       overrideBrowserslist: ['last 10 version'],
       grid: true

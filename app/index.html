@@ -139,7 +139,7 @@
 								</div>
 								<p class="rules-of-entrance__info">Нажмите кнопку Детальнее, чтобы узнать подробности.</p>
 								<div class="rules-of-entrance__btns-block">
-									<a href="#" class="rules-of-entrance__btn-policy btn btn-contour">Оформить страховой
+									<a href="#policy" class="rules-of-entrance__btn-policy btn btn-contour">Оформить страховой
 										полис</a>
 									<button
 										class="rules-of-entrance__btn-details btn btn-yellow btn-popup btn-popup-rules-of-entrance">Детальнее</button>
@@ -159,28 +159,150 @@
 							<div class="choose-the-country__body">
 								<div class="search">
 									<label class="search__input-box">
-										<input type="text" class="search__input input" placeholder="Найти страну">
+										<input id="search-main" type="text" class="search__input input"
+											placeholder="Найти страну">
 										<span class="icon icon-search"></span>
 									</label>
 									<div class="search__container">
-										<div class="search__results h4">
-											<div class="search__item btn-popup btn-popup-country-egypt">Италия</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">США</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Турция</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Болгария</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Молдова</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Беларусь</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Египет</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Канада</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Испания</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Израиль</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Индия</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Польша</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">ОАЭ</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Россия</div>
-											<div class="search__item btn-popup btn-popup-country-egypt">Германия</div>
+										<div id="results-main" class="search__results not-all h4">
+											<div class="search__item btn-popup show btn-popup-country-egypt">Италия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">США</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Турция</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Болгария</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Молдова</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Беларусь</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Египет</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Канада</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Испания</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
 										</div>
-										<button type="button" class="search__btn btn btn-contour">Показать все</button>
+										<button type="button"
+											class="search__btn btn btn-contour btn-popup btn-popup-search">Показать все</button>
 									</div>
 								</div>
 							</div>
@@ -237,7 +359,7 @@
 								<a href="#" class="at-home__app-store-mobile">
 									<img src="images/app-store.png" alt="app store">
 								</a>
-								<button class="at-home__btn btn btn-contour">Показать все</button>
+								<button class="at-home__btn btn btn-contour btn-popup btn-popup-diia">Показать все</button>
 							</div>
 							<div class="at-home__rightside">
 								<div class="at-home__phone">
@@ -325,7 +447,7 @@
 								</p>
 								<p class="polisy-banner__notice h4">(Сервисный сбор + 8% от суммы)</p>
 							</div>
-							<button type="button" class="polisy-banner__btn btn btn-white">Заполнить форму</button>
+							<a href="#policy" class="polisy-banner__btn btn btn-white">Заполнить форму</a>
 						</div>
 					</div>
 				</section>
@@ -457,7 +579,7 @@
 				<!-- info travel end -->
 
 				<!-- block forms start -->
-				<section class="block-forms">
+				<section id="policy" class="block-forms">
 					<div class="container">
 						<div class="block-forms__content">
 							<div class="block-forms__buttons">
@@ -469,175 +591,287 @@
 							</div>
 							<div class="form-policy">
 								<div class="form-policy__content">
-									<p class="form-policy__step h2">1 шаг из 3</p>
+									<div class="form-policy__step-one">
+										<p class="form-policy__step h2">1 шаг из 3</p>
 
-									<div class="form-policy__tariffs">
-										<p class="form-policy__tariffs-title">Тарифы</p>
-										<div class="form-policy__tariffs-radio">
-											<label class="form-policy-radio">
-												<input type="radio" name="tariff" class="radio-none">
-												<div class="radio-style h2">BASIC</div>
-											</label>
+										<div class="form-policy__tariffs">
+											<p class="form-policy__tariffs-title">Тарифы</p>
+											<div class="form-policy__tariffs-radio">
+												<label class="form-policy-radio">
+													<input type="radio" name="tariff" class="radio-none">
+													<div class="radio-style h2">BASIC</div>
+												</label>
 
-											<label class="form-policy-radio">
-												<input type="radio" name="tariff" class="radio-none" checked>
-												<div class="radio-style h2">STANDART</div>
-											</label>
+												<label class="form-policy-radio">
+													<input type="radio" name="tariff" class="radio-none" checked>
+													<div class="radio-style h2">STANDART</div>
+												</label>
 
-											<label class="form-policy-radio">
-												<input type="radio" name="tariff" class="radio-none">
-												<div class="radio-style h2">MAX</div>
-											</label>
+												<label class="form-policy-radio">
+													<input type="radio" name="tariff" class="radio-none">
+													<div class="radio-style h2">MAX</div>
+												</label>
+											</div>
 										</div>
-									</div>
 
-									<p class="form-policy__descr">*Введите фамилию и имя латиницей, как в загранпаспорте</p>
-									<div class="form-policy__container">
-										<div class="form-policy__leftside">
-											<div class="form-policy__input-block">
-												<input type="text" class="form-policy__input input" placeholder="Фамилия">
-												<input type="text" class="form-policy__input input" placeholder="Имя">
-												<input type="text" class="form-policy__input input" placeholder="Паспорт">
-												<input type="text" class="form-policy__input input" placeholder="Дата рождения">
-												<input type="text" class="form-policy__input form-policy__input-promo input"
-													placeholder="Промокод">
+										<p class="form-policy__descr">*Введите фамилию и имя латиницей, как в загранпаспорте</p>
+										<div class="form-policy__container form-policy__container-main">
+											<div class="form-policy__leftside">
+												<div class="form-policy__input-block">
+													<input type="text" class="form-policy__input input" placeholder="Фамилия">
+													<input type="text" class="form-policy__input input" placeholder="Имя">
+													<input type="text" class="form-policy__input input" placeholder="Паспорт">
+													<input type="text" class="form-policy__input input" placeholder="Дата рождения">
+													<input type="text" class="form-policy__input form-policy__input-promo input"
+														placeholder="Промокод">
+												</div>
+
 											</div>
 
-										</div>
-
-										<div class="form-policy__rightside">
-											<div class="form-policy__input-block">
-												<div class="form-policy__select js-select">
-													<div class="form-policy__select-head js-select-head">
-														<p>Страна поездки</p>
-														<span class="icon icon-triangle-right"></span>
-													</div>
-													<div class="form-policy__select-body h4 js-select-body">
-														<p class="form-policy__select-item js-select-item">Вся Европа</p>
-														<p class="form-policy__select-item js-select-item">Весь мир</p>
-														<div class="form-policy__search">
-															<label class="form-policy__search-input-box">
-																<input type="text" class="form-policy__search-input"
-																	placeholder="Найти страну">
-																<span class="icon icon-search"></span>
-															</label>
-															<div class="form-policy__search-result">
-																<p
-																	class="form-policy__search-item form-policy__select-item js-select-item">
-																	Австралия</p>
-																<p
-																	class="form-policy__search-item form-policy__select-item js-select-item">
-																	Австрия</p>
-																<p
-																	class="form-policy__search-item form-policy__select-item js-select-item">
-																	Азербайджан</p>
-																<p
-																	class="form-policy__search-item form-policy__select-item js-select-item">
-																	Албания</p>
-																<p
-																	class="form-policy__search-item form-policy__select-item js-select-item">
-																	Алжир</p>
-																<p
-																	class="form-policy__search-item form-policy__select-item js-select-item">
-																	Американское Самоа
-																</p>
-																<p
-																	class="form-policy__search-item form-policy__select-item js-select-item">
-																	Ангилья</p>
+											<div class="form-policy__rightside">
+												<div class="form-policy__input-block">
+													<div class="form-policy__select js-select">
+														<div class="form-policy__select-head js-select-head">
+															<p>Страна поездки</p>
+															<span class="icon icon-triangle-right"></span>
+														</div>
+														<div class="form-policy__select-body h4 js-select-body">
+															<p class="form-policy__select-item js-select-item">Вся Европа</p>
+															<p class="form-policy__select-item js-select-item">Весь мир</p>
+															<div id="mini-search" class="form-policy__search">
+																<label class="form-policy__search-input-box">
+																	<input id="mini-search__input" type="text"
+																		class="form-policy__search-input" placeholder="Найти страну">
+																	<span class="icon icon-search"></span>
+																</label>
+																<div id="mini-search__result" class="form-policy__search-result ">
+																	<p
+																		class="form-policy__search-item show form-policy__select-item js-select-item">
+																		Австралия</p>
+																	<p
+																		class="form-policy__search-item show form-policy__select-item js-select-item">
+																		Австрия</p>
+																	<p
+																		class="form-policy__search-item show form-policy__select-item js-select-item">
+																		Азербайджан</p>
+																	<p
+																		class="form-policy__search-item show form-policy__select-item js-select-item">
+																		Албания</p>
+																	<p
+																		class="form-policy__search-item show form-policy__select-item js-select-item">
+																		Алжир</p>
+																	<p
+																		class="form-policy__search-item show form-policy__select-item js-select-item">
+																		Американское Самоа
+																	</p>
+																	<p
+																		class="form-policy__search-item show form-policy__select-item js-select-item">
+																		Ангилья</p>
+																</div>
 															</div>
 														</div>
 													</div>
-												</div>
-												<div class="form-policy__select js-select">
-													<div class="form-policy__select-head js-select-head">
-														<p>Дата поездки</p>
-														<span class="icon icon-triangle-right"></span>
+													<label
+														class="form-policy__select form-policy__select-calendar js-calendar js-select">
+														<div class="form-policy__select-head form-policy__select-head-calendar">
+															<input type="text" name="daterange" placeholder="Дата поездки"
+																class="daterange-input">
+															<span class="icon icon-triangle-right"></span>
+														</div>
+													</label>
+													<div class="form-policy__select js-select">
+														<div class="form-policy__select-head js-select-head">
+															<p>Вид отдыха</p>
+															<span class="icon icon-triangle-right"></span>
+														</div>
+														<div class="form-policy__select-body h4 js-select-body">
+															<p class="form-policy__select-item js-select-item">Спокойный отдых</p>
+															<p class="form-policy__select-item js-select-item">Экстремальный спорт</p>
+														</div>
 													</div>
-													<div class="form-policy__select-body js-select-body">
+													<input type="text" class="form-policy__input input" placeholder="Номер телефона">
+													<input type="text" class="form-policy__input input" placeholder="E-mail">
+												</div>
 
-													</div>
-												</div>
-												<div class="form-policy__select js-select">
-													<div class="form-policy__select-head js-select-head">
-														<p>Вид отдыха</p>
-														<span class="icon icon-triangle-right"></span>
-													</div>
-													<div class="form-policy__select-body h4 js-select-body">
-														<p class="form-policy__select-item js-select-item">Спокойный отдых</p>
-														<p class="form-policy__select-item js-select-item">Экстремальный спорт</p>
-													</div>
-												</div>
-												<input type="text" class="form-policy__input input" placeholder="Номер телефона">
-												<input type="text" class="form-policy__input input" placeholder="E-mail">
 											</div>
-
 										</div>
-									</div>
-									<!-- 
-									<div class="form-policy__participants">
-										<p class="form-policy__participants-title"></p>
-										<div class="form-policy__tourist">
-											<p class="form-policy__subtitle">Турист №1</p>
+
+										<div class="form-policy__participants">
+											<p class="form-policy__participants-title h3">Участники поездки:</p>
+											<div class="form-policy__tourist to-clone">
+												<p class="form-policy__subtitle">Турист №<span class="num"></span></p>
+												<div class="form-policy__container">
+													<div class="form-policy__leftside">
+														<div class="form-policy__input-block">
+															<input type="text" class="form-policy__input input" placeholder="Фамилия">
+															<input type="text" class="form-policy__input input" placeholder="Имя">
+														</div>
+													</div>
+													<div class="form-policy__rightside">
+														<div class="form-policy__input-block">
+															<input type="text" class="form-policy__input input" placeholder="Паспорт">
+															<input type="text" class="form-policy__input input"
+																placeholder="Дата рождения">
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="form-policy__tourist">
+												<p class="form-policy__subtitle">Турист №<span class="num"></span></p>
+												<div class="form-policy__container">
+													<div class="form-policy__leftside">
+														<div class="form-policy__input-block">
+															<input type="text" class="form-policy__input input" placeholder="Фамилия">
+															<input type="text" class="form-policy__input input" placeholder="Имя">
+														</div>
+													</div>
+													<div class="form-policy__rightside">
+														<div class="form-policy__input-block">
+															<input type="text" class="form-policy__input input" placeholder="Паспорт">
+															<input type="text" class="form-policy__input input"
+																placeholder="Дата рождения">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="form-policy__bottom-block">
 											<div class="form-policy__container">
 												<div class="form-policy__leftside">
-													<div class="form-policy__input-block">
-														<input type="text" class="form-policy__input input" placeholder="Фамилия">
-														<input type="text" class="form-policy__input input" placeholder="Имя">
+													<div class="form-policy__check-block">
+														<label class="form-policy__check-row">
+															<div class="chechbox">
+																<input type="checkbox" name="argeement" class="checkbox-none">
+																<span class="checkbox-style"></span>
+															</div>
+															<p class="form-policy__check-text">Согласие на обработку персональных
+																данных
+															</p>
+														</label>
+														<label class="form-policy__check-row">
+															<div class="chechbox">
+																<input type="checkbox" name="conditions" class="checkbox-none">
+																<span class="checkbox-style"></span>
+															</div>
+															<p class="form-policy__check-text">Условия договора</p>
+														</label>
+													</div>
+													<div class="form-policy__buttons">
+														<button type="button" class="form-policy__next btn btn-white">Далее</button>
+														<button type="button"
+															class="form-policy__add js-add-tourist-block js-add-tourist">Добавить
+															туриста</button>
 													</div>
 												</div>
-												<div class="form-policy__leftside">
-													<div class="form-policy__input-block">
-														<input type="text" class="form-policy__input input" placeholder="Паспорт">
-														<input type="text" class="form-policy__input input"
-															placeholder="Дата рождения">
-													</div>
-												</div>
-											</div>
-										</div>
-									</div> -->
-
-									<div class="form-policy__bottom-block">
-										<div class="form-policy__container">
-											<div class="form-policy__leftside">
-												<div class="form-policy__check-block">
-													<label class="form-policy__check-row">
-														<div class="chechbox">
-															<input type="checkbox" name="argeement" class="checkbox-none">
-															<span class="checkbox-style"></span>
-														</div>
-														<p class="form-policy__check-text">Согласие на обработку персональных данных
+												<div class="form-policy__rightside">
+													<div class="form-policy__sum">
+														<p class="form-policy__sum-title h2">Сумма к оплате:</p>
+														<p class="form-policy__sum-price">
+															1275, 43
+															<span>грн</span>
 														</p>
-													</label>
-													<label class="form-policy__check-row">
-														<div class="chechbox">
-															<input type="checkbox" name="conditions" class="checkbox-none">
-															<span class="checkbox-style"></span>
-														</div>
-														<p class="form-policy__check-text">Условия договора</p>
-													</label>
-												</div>
-												<div class="form-policy__buttons">
-													<button type="button" class="form-policy__next btn btn-white">Далее</button>
-													<button type="button" class="form-policy__add">Добавить
-														туриста</button>
-												</div>
-											</div>
-											<div class="form-policy__rightside">
-												<div class="form-policy__sum">
-													<p class="form-policy__sum-title h2">Сумма к оплате:</p>
-													<p class="form-policy__sum-price">
-														1275, 43
-														<span>грн</span>
-													</p>
-													<p class="form-policy__sum-days">
-														Количество дней:
-														<span>14 дней</span>
-													</p>
+														<p class="form-policy__sum-days">
+															Количество дней:
+															<span>14 дней</span>
+														</p>
+													</div>
 												</div>
 											</div>
 										</div>
 									</div>
+									<div class="form-policy__step-two">
+										<p class="form-policy__step">2 шаг из 3</p>
+										<p class="form-policy__info-title">Проверка информации</p>
+										<div class="form-policy__container">
+											<div class="form-policy__rightside">
+												<div class="form-policy__result-item">
+													<p class="form-policy__result-item-title">Дата поездки:</p>
+													<p class="form-policy__result-item-info">2021.06.11–2021.06.24</p>
+												</div>
+												<div class="form-policy__result-item">
+													<p class="form-policy__result-item-title">Тариф:</p>
+													<p class="form-policy__result-item-info">STANDART</p>
+												</div>
+												<div class="form-policy__result-item">
+													<p class="form-policy__result-item-title">Страна:</p>
+													<p class="form-policy__result-item-info">BULGARIA</p>
+												</div>
+											</div>
+										</div>
+										<div class="form-policy__block">
+											<p class="form-policy__title">Страхователь:</p>
+											<div class="form-policy__container">
+												<div class="form-policy__leftside">
+													<div class="form-policy__result-item">
+														<p class="form-policy__result-item-title">ФИО:</p>
+														<p class="form-policy__result-item-info">IVAN IVANOV</p>
+													</div>
+													<div class="form-policy__result-item">
+														<p class="form-policy__result-item-title">Паспорт:</p>
+														<p class="form-policy__result-item-info">FA 253456</p>
+													</div>
+													<div class="form-policy__result-item">
+														<p class="form-policy__result-item-title">E-mail</p>
+														<p class="form-policy__result-item-info">test@gmail.com</p>
+													</div>
+												</div>
+												<div class="form-policy__rightside">
+													<div class="form-policy__result-item">
+														<p class="form-policy__result-item-title">Дата рождения:</p>
+														<p class="form-policy__result-item-info">1995.01.10</p>
+													</div>
+													<div class="form-policy__result-item">
+														<p class="form-policy__result-item-title">Телефон</p>
+														<p class="form-policy__result-item-info">+380935841231</p>
+													</div>
 
+												</div>
+											</div>
+										</div>
+										<div class="form-policy__block">
+											<p class="form-policy__title">Туристы</p>
+											<div class="form-policy__container">
+												<div class="form-policy__leftside">
+													<div class="form-policy__subtitle">Турист №1</div>
+													<div class="form-policy__result-item">
+														<p class="form-policy__result-item-title">ФИО:</p>
+														<p class="form-policy__result-item-info">IVAN IVANOV</p>
+													</div>
+													<div class="form-policy__result-item">
+														<p class="form-policy__result-item-title">Паспорт:</p>
+														<p class="form-policy__result-item-info">FA 253456</p>
+													</div>
+													<div class="form-policy__result-item">
+														<p class="form-policy__result-item-title">Дата рождения:</p>
+														<p class="form-policy__result-item-info">1995.01.10</p>
+													</div>
+												</div>
+												<div class="form-policy__rightside">
+													<div class="form-policy__subtitle">Турист №2</div>
+													<div class="form-policy__result-item">
+														<p class="form-policy__result-item-title">ФИО:</p>
+														<p class="form-policy__result-item-info">IVAN IVANOV</p>
+													</div>
+													<div class="form-policy__result-item">
+														<p class="form-policy__result-item-title">Паспорт:</p>
+														<p class="form-policy__result-item-info">FA 253456</p>
+													</div>
+													<div class="form-policy__result-item">
+														<p class="form-policy__result-item-title">Дата рождения:</p>
+														<p class="form-policy__result-item-info">1995.01.10</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="form-policy__step-two-buttons">
+											<button type="button" class="form-policy__back btn">Назад</button>
+											<button type="button" class="form-policy__offer btn btn-white">Оплатить</button>
+										</div>
+									</div>
+									<div class="form-policy__step-three">
+										<p class="form-policy__step">3 шаг из 3</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -698,7 +932,7 @@
 				<div class="popup__body">
 					<div class="popup__content">
 						<span class="icon icon-close popup-close"></span>
-						<div class="popup-details__content">
+						<div id="scroll-popup-rules-of-entrance" class="popup-details__content">
 							<div class="popup-details__wrapper">
 								<div class="popup-details__head head h3">ПРАВИЛА ВЪЕЗДА В УКРАИНУ</div>
 								<div class="popup-details__body h4">
@@ -761,12 +995,244 @@
 			</div>
 			<!-- POPUP rules-of-entrance END  -->
 
+			<!-- POPUP diia  -->
+			<div class="popup popup-details popup-diia">
+				<div class="popup__body">
+					<div class="popup__content">
+						<span class="icon icon-close popup-close"></span>
+						<div id="scroll-popup-diia" class="popup-details__content">
+							<div class="popup-details__wrapper">
+								<div class="popup-details__head head h3">ПРАВИЛА ВЪЕЗДА В УКРАИНУ</div>
+								<div class="popup-details__body h4">
+									<p class="popup-details__p popup-details__p-semibold popup-details__p-center">Актуальные
+										правила
+										пересечения украинской
+										границы регулируются Постановлением Кабинета Министров Украины от 9 декабря 2020 № 1236, с
+										последними изменениями от 18 августа 2021 Постановление КМУ № 889</p>
+									<p class="popup-details__p"> <mark class=" popup-details__mark"> Въезд в Украину иностранцев,
+											в том числе,
+											владельцев временного вида на жительство, и лиц без гражданства</mark>
+									</p>
+									<p class="popup-details__p">Всем иностранцам независимо от возраста и страны прибытия для
+										въезда
+										в Украину нужно иметь полис (свидетельство, сертификат) страхования, выданный страховой
+										компанией, зарегистрированной в Украине, или иностранной страховой компанией, которая
+										имеет
+										представительство на территории Украины или договорные отношения со страховой
+										компанией-партнером на территории Украины (ассистанс), который покрывает расходы,
+										связанные с
+										лечением COVID-19, обсервацией, и действует на весь срок пребывания в Украине.
+									</p>
+									<br>
+									<p class="popup-details__p">Страховой полис, который был приобретен через портал, может быть
+										перенесён на необходимый срок для туриста. Процедура изменения дат может быть осуществлена
+										несколько раз.</p>
+									<button type="button" class="popup-details__btn btn btn-contour">Оформить страховой
+										полис</button>
+									<p class="popup-details__p">А также иметь один из указанных документов:
+									</p>
+									<p class="popup-details__p">• документ, подтверждающий получение одной или нескольких доз
+										вакцины от COVID-19, которые одобрены ВОЗ для экстренного применения: Pfizer / BioNTech,
+										Johnson & Johnson's Janssen, AstraZeneca / Vaxzevria, AstraZeneca / Covishield (India),
+										AstraZeneca / SKBio (South Korea), Moderna / Spikevax, Sinopharm (Vero Cell), CoronaVac
+										(Sinovac); или</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+										quos itaque velit dignissimos eius at sed pariatur ab laboriosam similique?</p>
+									<p class="popup-details__p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+										Sapiente
+										delectus quos error debitis beatae blanditiis eos quaerat quam. Distinctio recusandae
+										atque
+										debitis placeat molestias alias aut quis ipsum pariatur architecto doloribus sint illum
+										eligendi, similique totam quaerat? In repellat eius, eaque iusto iure consequuntur modi,
+										dicta similique aperiam autem obcaecati minima earum quidem dolores facere! Corrupti
+										explicabo est cum? Qui, distinctio maiores aliquid temporibus tempore sunt voluptatibus
+										placeat rerum adipisci necessitatibus et repellat saepe odio enim excepturi facere
+										consequuntur facilis modi amet praesentium delectus porro laborum! Eos at dolore aliquid,
+										consequuntur labore, non nulla cum tempore nostrum veniam, impedit quos.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+										fugit harum neque nihil. Debitis aperiam nulla facilis natus est modi voluptatum, nemo,
+										minima mollitia voluptates, sequi quia delectus neque perspiciatis obcaecati nobis
+										officiis.
+										Assumenda, voluptate iure iste sapiente exercitationem in.</p>
+									<p class="popup-details__p">Lorem ipsum dolor sit amet.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- POPUP diia END  -->
+
+			<!-- POPUP search  -->
+			<div class="popup popup-details popup-search">
+				<div class="popup__body">
+					<div class="popup__content">
+						<span class="icon icon-close popup-close"></span>
+						<div id="scroll-popup-search" class="popup-details__content">
+							<div class="popup-details__wrapper">
+								<div class="popup-details__head head h3">ВЫБЕРИТЕ СТРАНУ, ИЗ КОТОРОЙ ПУТЕШЕСТВУЕТЕ В УКРАИНУ
+								</div>
+								<div class="choose-the-country__body">
+									<div class="search">
+										<label class="search__input-box">
+											<input id="popup-search-main" type="text" class="search__input input"
+												placeholder="Найти страну">
+											<span class="icon icon-search"></span>
+										</label>
+										<div class="search__container">
+											<div id="popup-results-main" class="search__results not-all h4">
+												<div class="search__item btn-popup show btn-popup-country-egypt">Италия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">США</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Турция</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Болгария</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Молдова</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Беларусь</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Египет</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Канада</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Испания</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Израиль</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Индия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Польша</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">ОАЭ</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Россия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+												<div class="search__item btn-popup show btn-popup-country-egypt">Германия</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- POPUP search END  -->
+
 			<!-- POPUP city-rules  -->
 			<div class="popup popup-details popup-city-rules">
 				<div class="popup__body">
 					<div class="popup__content">
 						<span class="icon icon-close popup-close"></span>
-						<div class="popup-details__content">
+						<div id="scroll-popup-city-rules" class="popup-details__content">
 							<div class="popup-details__wrapper">
 								<div class="popup-details__head head h3">ПРАВИЛА ПРЕБЫВАНИЯ В ГОРОДАХ</div>
 								<div class="popup-details__body h4">
@@ -834,7 +1300,7 @@
 				<div class="popup__body">
 					<div class="popup__content">
 						<span class="icon icon-close popup-close"></span>
-						<div class="popup-details__content">
+						<div id="scroll-popup-questions" class="popup-details__content">
 							<div class="popup-details__wrapper">
 								<div class="popup-details__head head h3">Часто задаваемые вопросы</div>
 								<div class="popup-details__body h4">
@@ -902,7 +1368,7 @@
 				<div class="popup__body">
 					<div class="popup__content">
 						<span class="icon icon-close popup-close"></span>
-						<div class="popup-details__content">
+						<div id="scroll-popup-hotels-rules" class="popup-details__content">
 							<div class="popup-details__wrapper">
 								<div class="popup-details__head head h3">ПРАВИЛА ПРЕБЫВАНИЯ В ОТЕЛЯХ</div>
 								<div class="popup-details__body h4">
@@ -970,7 +1436,7 @@
 				<div class="popup__body">
 					<div class="popup__content">
 						<span class="icon icon-close popup-close"></span>
-						<div class="popup-details__content">
+						<div id="scroll-popup-public-rules" class="popup-details__content">
 							<div class="popup-details__wrapper">
 								<div class="popup-details__head head h3">ПРАВИЛА ПРЕБЫВАНИЯ В ОБЩЕСТВЕННЫХ МЕСТАХ</div>
 								<div class="popup-details__body h4">
@@ -1038,7 +1504,7 @@
 				<div class="popup__body">
 					<div class="popup__content">
 						<span class="icon icon-close popup-close"></span>
-						<div class="popup-details__content">
+						<div id="scroll-popup-info-travel" class="popup-details__content">
 							<div class="popup-details__wrapper">
 								<div class="popup-details__head head h3">ИНФОРМАЦИЯ ДЛЯ ПУТЕШЕСТВУЮЩИХ ЗА ГРАНИЦУ</div>
 								<div class="popup-details__body h4">
@@ -1106,7 +1572,7 @@
 				<div class="popup__body">
 					<div class="popup__content">
 						<span class="icon icon-close popup-close"></span>
-						<div class="popup-country__content">
+						<div id="scroll-popup-country-egypt" class="popup-country__content">
 							<div class="popup-country__wrapper">
 								<div class="popup-country__head">
 									<div class="popup-country__flag">
@@ -1209,6 +1675,7 @@
 
 	<!-- SCRIPTS start  -->
 	<script src="js/main.min.js"></script>
+
 
 
 

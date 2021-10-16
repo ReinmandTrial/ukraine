@@ -136,6 +136,22 @@
 }
 // MAX-WIDTH 991.98PX breakpoints START
 @media (max-width: 991.98px) {
+   .form-policy {
+      &__leftside {
+         width: 48%;
+         margin-right: 4%;
+      }
+      &__rightside {
+         width: 48%;
+      }
+      &__tariffs-radio {
+         flex-direction: column;
+      }
+   }
+   .form-policy-radio:not(:last-child) {
+      margin-right: unset;
+      margin-bottom: 20px;
+   }
    .popup-country {
       &__body {
          flex-direction: column;
@@ -342,7 +358,51 @@
 
 // MAX-WIDTH 767.98PX breakpoints START
 @media (max-width: 767.98px) {
-   .popup-country {
+   .form-policy {
+      padding: 60px 50px;
+      &__container {
+         flex-direction: column;
+      }
+      &__leftside {
+         width: 100%;
+         margin-right: unset;
+      }
+      &__rightside {
+         width: 100%;
+      }
+      &__container-main {
+         .form-policy__rightside {
+            margin-bottom: 23px;
+            order: 1;
+         }
+         .form-policy__leftside {
+            order: 2;
+            margin-bottom: 23px;
+         }
+      }
+      &__tourist {
+         .form-policy__leftside {
+            margin-bottom: 23px;
+         }
+      }
+
+      &__bottom-block .form-policy__container {
+         .form-policy__leftside {
+            order: 2;
+         }
+         .form-policy__rightside {
+            order: 1;
+         }
+      }
+      &__sum {
+         margin-top: 30px;
+      }
+      &__check-block {
+         margin: 30px 0;
+      }
+   }
+
+   .form-policy .popup-country {
       &__content {
       }
       .popup__content {
@@ -544,6 +604,142 @@
 
 // MAX-WIDTH 576.98PX breakpoints START
 @media (max-width: 575.98px) {
+   .daterangepicker {
+      margin-top: 7px;
+   }
+   .daterangepicker .drp-calendar.left .calendar-table {
+      padding-top: 5px;
+   }
+   .daterangepicker .drp-calendar.left .calendar-table table {
+      width: 225px;
+   }
+   .daterangepicker .drp-calendar.left th.month,
+   .daterangepicker .calendar-table td {
+      font-size: 12px;
+      line-height: 15px;
+      min-width: unset;
+   }
+   .form-policy__input:not(:last-child) {
+      margin-bottom: 18px;
+   }
+   .daterangepicker .calendar-table .prev {
+      left: 50px;
+   }
+   .daterangepicker .calendar-table .next {
+      right: 50px;
+   }
+   .form-policy {
+      padding: 30px 20px 35px;
+      &__container-main .form-policy__rightside {
+         margin-bottom: 18px;
+      }
+      &__select:not(:last-child),
+      &__result-item:not(:last-child) {
+         margin-bottom: 18px;
+      }
+      &__tourist .form-policy__leftside {
+         margin-bottom: 18px;
+      }
+      &__step-two .form-policy__leftside {
+         margin-bottom: 18px;
+      }
+      &__step {
+         position: static;
+         text-align: center;
+         font-size: 18px;
+         margin-bottom: 30px;
+      }
+      &__tariffs-title {
+         font-size: 22px;
+         margin-bottom: 20px;
+      }
+      &__tariffs-radio {
+         margin-bottom: 30px;
+      }
+      &__descr {
+         padding: 0 15px;
+      }
+      &__select-head .icon-triangle-right {
+         font-size: 13px;
+      }
+      &__select-body {
+         // max-height: 256px;
+      }
+      &__container-main {
+         .form-policy__leftside {
+            order: 2;
+         }
+         .form-policy__rightside {
+            order: 1;
+         }
+      }
+      &__participants-title {
+         font-size: 16px;
+         margin: 30px 0 20px;
+      }
+      &__subtitle {
+         margin-bottom: 3px;
+      }
+      &__tourist:not(:last-child) {
+         margin-bottom: 20px;
+      }
+      &__sum-title {
+         font-size: 17px;
+         margin-bottom: unset;
+      }
+      &__sum-price {
+         font-size: 37px;
+         & span {
+            font-size: 16px;
+         }
+      }
+      &__sum-days {
+         font-size: 14px;
+         & span {
+            font-size: 18px;
+         }
+      }
+      &__check-text {
+         margin-left: 11px;
+         font-size: 12px;
+      }
+      &__buttons {
+         flex-direction: column;
+         align-items: center;
+      }
+      &__next {
+         min-width: 200px;
+         margin-right: unset;
+         margin-bottom: 15px;
+      }
+      &__add {
+         font-size: 16px;
+      }
+      &__info-title {
+         font-size: 22px;
+      }
+      &__step-two-buttons {
+         flex-direction: column-reverse;
+         align-items: center;
+      }
+      &__back {
+         margin-right: unset;
+         margin-top: 15px;
+      }
+   }
+   .checkbox-style {
+      width: 14.75px;
+      height: 14.63px;
+   }
+   .checkbox-none:checked + .checkbox-style {
+      background: url("../images/SVG/check.svg") 1px 2px/10px 7.5px no-repeat;
+   }
+   .input,
+   .form-policy__select-head,
+   .form-policy__result-item {
+      padding: 7px 0;
+      font-size: 14px;
+   }
    .popup-country {
       .popup__content {
          padding: 25px 10px;
