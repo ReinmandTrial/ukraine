@@ -81,20 +81,52 @@ $(document).ready(function () {
    //нажатие вне body
    //popup end
 
+   // Туристы старт
    $('.js-add-tourist').on('click', function () {
       var btn = $(this);
       if (btn.hasClass('js-add-tourist-block')) {
          btn.closest('.form-policy').find('.form-policy__participants').show();
          btn.removeClass('js-add-tourist-block');
+         $('.form-policy__tourist').find('.num').val('');
+         $('.form-policy__tourist .form-policy__subtitle .num').each(function () {
+            $(this).html($('.form-policy__tourist .form-policy__subtitle .num').index(this));
+         });
       } else {
-         btn.closest('.form-policy').find('.form-policy__tourist.to-clone').clone().appendTo('.form-policy__participants').find('input').val('');
+         btn.closest('.form-policy').find('.form-policy__tourist.to-clone').clone().appendTo('.form-policy__participants').show();
          $('.form-policy__tourist.to-clone:last-child').removeClass('to-clone');
          $('.form-policy__tourist').find('.num').val('');
          $('.form-policy__tourist .form-policy__subtitle .num').each(function () {
-            $(this).html($('.form-policy__tourist .form-policy__subtitle .num').index(this) + 1);
+            $(this).html($('.form-policy__tourist .form-policy__subtitle .num').index(this));
          });
       }
    });
+
+   $(document).on('click', '.form-policy__close', function () {
+      var btn = $(this);
+      btn.closest('.form-policy__tourist').remove();
+      $('.form-policy__tourist').find('.num').val('');
+      $('.form-policy__tourist .form-policy__subtitle .num').each(function () {
+         $(this).html($('.form-policy__tourist .form-policy__subtitle .num').index(this));
+      });
+      var count = 0;
+      $($(document).find('.form-policy__tourist')).each(function () {
+         count++;
+      })
+      if (count <= 1) {
+         $('.form-policy__participants').hide();
+         $('.js-add-tourist').addClass('js-add-tourist-block');
+         $('.form-policy__tourist.to-clone').clone().appendTo('.form-policy__participants').show();
+         $('.form-policy__tourist.to-clone:last-child').removeClass('to-clone');
+         $('.form-policy__tourist.to-clone').clone().appendTo('.form-policy__participants').show();
+         $('.form-policy__tourist.to-clone:last-child').removeClass('to-clone');
+         $('.form-policy__tourist').find('.num').val('');
+         $('.form-policy__tourist .form-policy__subtitle .num').each(function () {
+            $(this).html($('.form-policy__tourist .form-policy__subtitle .num').index(this));
+         });
+      }
+   });
+   // Туристы конец
+
 
    $('.block-forms__btn-policy').on('click', function () {
       $(this).toggleClass('active');
@@ -131,7 +163,7 @@ $(document).ready(function () {
 
    // Календарь
 
-   $('input[name="daterange"]').on('focus', function () {
+   $('input[name="daterange"], .daterangepicker').on('focus', function () {
 
       $(this).daterangepicker({
          opens: 'center',
@@ -176,14 +208,14 @@ $(document).ready(function () {
       }, function (start, end, label) {
          console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
       });
-      return;
+      // return;
    });
 
-   $.fn.lastWord = function () {
-      var text = this.text().trim().split(" ");
-      var last = text.pop();
-      this.html(text.join(" ") + (text.length > 0 ? " <span class='lastWord'>" + last + "</span>" : last));
-   };
+   // $.fn.lastWord = function () {
+   //    var text = this.text().trim().split(" ");
+   //    var last = text.pop();
+   //    this.html(text.join(" ") + (text.length > 0 ? " <span class='lastWord'>" + last + "</span>" : last));
+   // };
    // Календарь конец
 
 

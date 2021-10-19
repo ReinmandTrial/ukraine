@@ -1165,6 +1165,9 @@ button {
    .banner__img {
       bottom: calc(5px + (164 - 5) * ((100vw - 375px) / (1470 - 375)));
    }
+   .leave-ukraine .banner__img {
+      width: calc(451px + (780 - 451) * ((100vw - 375px) / (1470 - 375)));
+   }
 }
 @media (max-width: 1470px) {
    .banner__img {
@@ -1340,6 +1343,7 @@ button {
    display: block;
 }
 .search__item {
+   cursor: pointer;
    margin: 15px 10px;
    min-width: 110px;
    background: #cde7f4;
@@ -1347,6 +1351,10 @@ button {
    padding: 6px 10px 7px;
    text-align: center;
    display: none;
+   transition: ease 0.3s;
+}
+.search__item:hover {
+   background: #bed6e2;
 }
 .search__item.show {
    display: block;
@@ -1868,7 +1876,6 @@ button {
 .block-forms__btn-policy {
    display: flex;
    align-items: center;
-   margin-right: 30px;
    transition: ease 0.3s;
 }
 .block-forms__btn-policy .icon-triangle-right {
@@ -2445,6 +2452,20 @@ button {
 .form-policy__tourist:not(:last-child) {
    margin-bottom: 25px;
 }
+.form-policy__tourist {
+   position: relative;
+}
+.form-policy__tourist.to-clone {
+   display: none;
+}
+.form-policy__close {
+   color: #fff;
+   font-size: 14px;
+   position: absolute;
+   z-index: 100;
+   right: 0;
+   top: 0;
+}
 .form-policy__subtitle {
    margin-bottom: 4px;
    font-weight: 600;
@@ -2964,10 +2985,10 @@ input {
       margin: 40px 20px;
    }
    .popup .popup-close {
-      display: none;
+      /* display: none; */
       left: unset;
-      right: 10px;
-      top: 10px;
+      right: 5px;
+      top: 5px;
    }
    .popup-details__head {
       min-width: unset;
@@ -3004,10 +3025,6 @@ input {
    }
    .block-forms__buttons {
       flex-direction: column;
-   }
-   .block-forms__btn-policy {
-      margin-right: unset;
-      margin-bottom: 25px;
    }
    .block-forms__btn-order-test {
       width: 100%;
