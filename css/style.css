@@ -750,7 +750,7 @@ textarea {
    flex: 0 0 auto;
 }
 .container {
-   max-width: 1470px;
+   max-width: 1330px;
    margin: 0 auto;
    padding: 0 15px;
    height: 100%;
@@ -1918,6 +1918,7 @@ button {
    width: 157px;
    display: flex;
    align-items: flex-end;
+   justify-content: center;
    margin-bottom: 15px;
 }
 .block-company__item-text {
@@ -2100,6 +2101,7 @@ button {
    background: #ffea21;
    margin: 0 -17px;
    padding: 0 17px;
+   height: 76px;
 }
 .price-list__item.active .price-list__price-num {
    font-size: 26.5px;
@@ -3022,6 +3024,7 @@ input {
    .price-list__item.active {
       margin: unset;
       padding: unset;
+      height: 53px;
    }
    .block-forms__buttons {
       flex-direction: column;
