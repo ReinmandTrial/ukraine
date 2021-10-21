@@ -917,8 +917,8 @@ textarea {
 }
 .logo {
    transform: translateY(-13px);
-   width: 300px;
-   height: 60px;
+   width: 270px;
+   height: 40px;
 }
 .lang {
    position: relative;
@@ -981,15 +981,20 @@ textarea {
 .footer__top {
    background: #1c1b1b;
 }
+.footer__top .container {
+   padding: 45px 15px;
+}
 .footer__content {
    position: relative;
-   padding: 45px 0;
+   display: flex;
+   justify-content: space-between;
 }
 .footer__block {
    display: flex;
    margin-bottom: 50px;
    flex-wrap: wrap;
-   width: 40%;
+   width: 450px;
+   /* margin-right: 40px; */
 }
 .footer__link {
    font-weight: 400;
@@ -998,16 +1003,13 @@ textarea {
 }
 .footer__link:not(:last-child) {
    margin-bottom: 20px;
-   margin-right: 80px;
+   margin-right: 40px;
 }
 .footer__link:hover {
    text-decoration-line: underline;
 }
 .footer__block-center {
-   position: absolute;
-   transform: translateX(-50%);
-   top: 45px;
-   left: 50%;
+   margin: 0 auto;
 }
 .footer__bottom-line {
    background: #000;
@@ -1018,6 +1020,20 @@ textarea {
    padding: 23px 0;
    color: #fff;
    text-align: center;
+}
+.footer .logo {
+   transform: translateY(-10px);
+}
+.footer__payment {
+   display: flex;
+   justify-content: center;
+}
+.footer__payment-item {
+   width: 39px;
+   height: 26px;
+}
+.footer__payment-item:not(:last-child) {
+   margin-right: 8px;
 }
 .simplebar-track.simplebar-vertical {
    background: #e2e2e2;
@@ -1850,8 +1866,16 @@ button {
    margin-bottom: 40px;
    max-width: 510px;
 }
+.archon {
+   opacity: 0;
+   pointer-events: none;
+   /* margin-top: -40vh; */
+   position: absolute;
+   top: -35vh;
+}
 .block-forms {
    margin-bottom: 150px;
+   position: relative;
 }
 @media (max-width: 1470px) {
    .block-forms {
@@ -2673,6 +2697,14 @@ input {
    }
 }
 @media (max-width: 1199.98px) {
+   .footer__block {
+      width: 300px;
+   }
+   .footer__block-right {
+      justify-content: flex-end;
+   }
+}
+@media (max-width: 1199.98px) {
    .popup .popup-close {
       left: calc(100% + 10px);
    }
@@ -2941,6 +2973,13 @@ input {
       width: 100%;
       margin-top: 15px;
    }
+   .footer__block-right {
+      flex-direction: column;
+      align-items: flex-end;
+   }
+   .footer__block-right .footer__link:not(:last-child) {
+      margin-right: unset;
+   }
 }
 @media (max-width: 767.98px) {
    .form-policy {
@@ -3131,8 +3170,46 @@ input {
    }
    .logo {
       transform: translateY(-3px);
-      width: 114px;
-      height: 23px;
+      width: 107px;
+      height: 16px;
+   }
+   .footer .logo {
+      width: 124px;
+      height: 20px;
+      transform: unset;
+      margin-bottom: 20px;
+   }
+   .footer__content {
+      flex-direction: column;
+      align-items: center;
+   }
+   .footer__block-left {
+      flex-direction: column;
+      width: unset;
+      order: 2;
+      align-items: center;
+      margin-bottom: 15px;
+   }
+   .footer__block-center {
+      order: 1;
+   }
+   .footer__block-right {
+      flex-direction: row !important;
+      order: 3;
+      width: unset;
+      margin-bottom: 30px !important;
+   }
+   .footer__block-left .footer__link,
+   .footer__block-left .footer__link:not(:last-child) {
+      margin-bottom: 15px;
+      margin-right: unset;
+   }
+   .footer__block-right .footer__link {
+      margin-bottom: unset !important;
+   }
+   .footer__block-right .footer__link:not(:last-child) {
+      margin-bottom: unset !important;
+      margin-right: 30px;
    }
 }
 @media (max-width: 767.98px) and (max-width: 768px) and (min-width: 375px) {
@@ -3565,8 +3642,8 @@ input {
    .banner__list-item::before {
       top: 10px;
    }
-   .footer__content {
-      padding: 45px 0 100px;
+   .footer__top .container {
+      padding: 40px 15px 20px;
    }
    .footer__block {
       flex-direction: column;
@@ -3581,6 +3658,12 @@ input {
    .footer__link {
       margin-bottom: 30px;
       font-size: 12px;
+      display: flex;
+      align-items: center;
+   }
+   .footer__link .icon {
+      margin-right: 6px;
+      font-size: 17px;
    }
    .footer__block-center {
       display: flex;
@@ -3589,7 +3672,6 @@ input {
       position: static;
    }
    .footer__logo {
-      display: none;
    }
    .footer__rights {
       font-size: 12px;
